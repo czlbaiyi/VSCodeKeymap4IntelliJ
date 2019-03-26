@@ -1,4 +1,4 @@
-<keymap version="1" name="VS Code" parent="$default">
+<keymap version="1" name="VsCode" parent="$default">
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
@@ -185,7 +185,6 @@
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
-  <action id="EditorTab" />
   <action id="EditorToggleCase" />
   <action id="EditorToggleColumnMode">
     <mouse-shortcut keystroke="shift alt button1" />
@@ -207,9 +206,6 @@
   <action id="ExpandExpandableComponent">
     <keyboard-shortcut first-keystroke="shift enter" />
     <keyboard-shortcut first-keystroke="ctrl add" />
-  </action>
-  <action id="Tab">
-    <keyboard-shortcut first-keystroke="Tab" />
   </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
@@ -476,6 +472,9 @@
   </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
+  <action id="Tab">
+    <keyboard-shortcut first-keystroke="tab" />
   </action>
   <action id="TableResult.UnselectPreviousOccurrence" />
   <action id="TagDocumentationNavigation" />
